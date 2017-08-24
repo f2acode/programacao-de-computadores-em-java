@@ -9,12 +9,16 @@
   * Literais
   * Entrada de dados com ```java.util.Scanner```
   * Entrada e saída de dados com ```javax.swing.JOptionPane```.
+  * Exercícios
 * 04: [Variáveis e constantes](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo04)
   * Tipos primitivos
   * Números inteiros e decimais
   * Conversão entre tipos numéricos
-  * Conversão de texto para tipos numéricos
-  * 
+  * Conversão de texto para tipos numéricos e vice versa
+  * Conversao de caractere para número e vice versa
+  * Constantes
+  * Formatação double para moeda com ```java.text.NumberFormat```
+  * Exercícios
 * 05: [Introdução à API do Java](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo05)
 * 06: [Operadores](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo06)
 * 07: [Estruturas de decisão](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo07)
