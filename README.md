@@ -7,8 +7,8 @@
   * Entrada e saída de dados (input/output) com ```System.in```.
   * Saída formatada com ```System.out.printf()```
   * Literais
-  * Entrada de dados com ```java.util.Scanner```
-  * Entrada e saída de dados com ```javax.swing.JOptionPane```.
+  * Entrada de dados com a classe ```Scanner```
+  * Entrada e saída de dados com a classe ```JOptionPane```
   * Exercícios
 * 04: [Variáveis e constantes](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo04)
   * Tipos primitivos
@@ -17,9 +17,12 @@
   * Conversão de texto para tipos numéricos e vice versa
   * Conversao de caractere para número e vice versa
   * Constantes
-  * Formatação double para moeda com ```java.text.NumberFormat```
+  * Formatação double para moeda com a classe```NumberFormat```
   * Exercícios
 * 05: [Introdução à API do Java](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo05)
+  * Manipulação de texto classe ```String```
+  * Comparação de texto com a classe ```String```
+  * 
 * 06: [Operadores](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo06)
 * 07: [Estruturas de decisão](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo07)
 * 08: [Estruturas de repetição](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo08)
