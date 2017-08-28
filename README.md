@@ -1,5 +1,19 @@
 # Programação de computadores em Java
 
+### .bat
+Existe uma maneira fácil de rodar os exemplos de códigos, assim como os exercícios, utilizando .bat (apenas para Windows):
+```
+run_java.bat <numero_capitulo> <codigo_ou_exercicio> <arquivo>.java
+```
+Exemplo código:
+```
+run_java.bat 05 c Matematica.java
+```
+Exemplo exercício:
+```
+run_java.bat 04 e Exercicio0401.java
+```
+
 ### Capítulos:
 * 01: Introdução ao Java
 * 02: [Ambiente de desenvolvimento](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo02)
