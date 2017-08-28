@@ -22,7 +22,7 @@
 * 05: [Introdução à API do Java](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo05)
   * Manipulação de texto classe ```String```
   * Comparação de texto com a classe ```String```
-  * 
+  * Utilização da classe ```Math```
 * 06: [Operadores](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo06)
 * 07: [Estruturas de decisão](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo07)
 * 08: [Estruturas de repetição](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo08)
