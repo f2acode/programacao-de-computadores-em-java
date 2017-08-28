@@ -1,17 +1,17 @@
 # Programação de computadores em Java
 
-### .bat
-Existe uma maneira fácil de rodar os exemplos de códigos, assim como os exercícios, utilizando .bat (apenas para Windows):
+### Compilando e executando com .bat (apenas para Windows)
+Foi criado um arquivo .bat para compilar e executar os exemplos de códigos, assim como os exercícios mais facilmente:
 ```
-run_java.bat <numero_capitulo> <codigo_ou_exercicio> <arquivo>.java
+run_java.bat <numero_capitulo> <codigo_ou_exercicio> <nome_arquivo_java>
 ```
 Exemplo código:
 ```
-run_java.bat 05 c Matematica.java
+run_java.bat 05 c Matematica
 ```
 Exemplo exercício:
 ```
-run_java.bat 04 e Exercicio0401.java
+run_java.bat 04 e Exercicio0401
 ```
 
 ### Capítulos:
