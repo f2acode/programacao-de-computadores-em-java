@@ -37,6 +37,8 @@ run_java.bat 04 e Exercicio0401
   * Manipulação de texto classe ```String```
   * Comparação de texto com a classe ```String```
   * Utilização da classe ```Math```
+  * Demonstração de conversões com classes ```Boolean```, ```Character```, ```Byte```, ```Short```, ```Integer```, ```Long```, ```Float``` e ```Double```.
+  * 
 * 06: [Operadores](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo06)
 * 07: [Estruturas de decisão](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo07)
 * 08: [Estruturas de repetição](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo08)
