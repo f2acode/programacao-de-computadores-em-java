@@ -39,6 +39,7 @@ run_java.bat 04 e Exercicio0401
   * Utilização da classe ```Math```
   * Demonstração de conversões com classes ```Boolean```, ```Character```, ```Byte```, ```Short```, ```Integer```, ```Long```, ```Float``` e ```Double```.
   * Utilização da classe ```Character``` para verificações e conversões de letras e números
+  * Geração de números aleatórios com a classe ```Random```.
   * 
 * 06: [Operadores](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo06)
 * 07: [Estruturas de decisão](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo07)
