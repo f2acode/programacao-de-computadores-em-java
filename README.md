@@ -1,6 +1,6 @@
 # Programação de computadores em Java
 
-### Compilando e executando com .bat (apenas para Windows)
+### Compilando e executando com .bat (apenas para Windows) - https://gist.github.com/felipeaugustox/22dd2baa94238bf4fed4ab73d99e699f
 Foi criado um arquivo .bat para compilar e executar os exemplos de códigos, assim como os exercícios mais facilmente:
 ```
 run_java.bat <numero_capitulo> <codigo_ou_exercicio> <nome_arquivo_java>
