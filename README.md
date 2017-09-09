@@ -34,14 +34,18 @@ run_java.bat 04 e Exercicio0401
   * Formatação double para moeda com a classe```NumberFormat```
   * Exercícios
 * 05: [Introdução à API do Java](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo05)
+#### Conteúdo
   * Manipulação de texto classe ```String```
   * Comparação de texto com a classe ```String```
   * Utilização da classe ```Math```
   * Demonstração de conversões com classes ```Boolean```, ```Character```, ```Byte```, ```Short```, ```Integer```, ```Long```, ```Float``` e ```Double```.
   * Utilização da classe ```Character``` para verificações e conversões de letras e números
   * Geração de números aleatórios em diversos tipos de dados com a classe ```Random```.
-  * Exercícios manipulando CEPs.
-  * 
+#### Exercícios
+  * Manipulação de CEPs e CPFs.
+  * Verificação de palavras e frases.
+  * Exercícios com fórmulas matemáticas, como cálculos de círculo.
+  * Geração de números aleatórios com ```Math.Random()``` e a classe ```Random```.
 * 06: [Operadores](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo06)
 * 07: [Estruturas de decisão](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo07)
 * 08: [Estruturas de repetição](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo08)
