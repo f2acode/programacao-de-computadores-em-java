@@ -1,18 +1,6 @@
 # Programação de computadores em Java
 
-### Compilando e executando com .bat (apenas para Windows) - https://gist.github.com/felipeaugustox/22dd2baa94238bf4fed4ab73d99e699f
-Foi criado um arquivo .bat para compilar e executar os exemplos de códigos, assim como os exercícios mais facilmente:
-```
-run_java.bat <numero_capitulo> <codigo_ou_exercicio> <nome_arquivo_java>
-```
-Exemplo código:
-```
-run_java.bat 05 c Matematica
-```
-Exemplo exercício:
-```
-run_java.bat 04 e Exercicio0401
-```
+É possível compilar e executar os arquivos mais rapidamente, para testes com .bat (Windows), você pode checar as instruções no [final da página](https://github.com/felipeaugustox/programacao-de-computadores-em-java#compilando-e-executando-com-bat-apenas-para-windows---httpsgistgithubcomfelipeaugustox22dd2baa94238bf4fed4ab73d99e699f).
 
 ## Capítulos:
 
@@ -73,3 +61,18 @@ run_java.bat 04 e Exercicio0401
 ### 09: [Vetores e matrizes](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo09)
 
 ### 10: [Tratamento de exceções](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo10)
+
+
+### Compilando e executando com .bat (apenas para Windows) - [Código aqui](https://gist.github.com/felipeaugustox/22dd2baa94238bf4fed4ab73d99e699f)
+Foi criado um arquivo .bat para compilar e executar os exemplos de códigos, assim como os exercícios mais facilmente:
+```
+run_java.bat <numero_capitulo> <codigo_ou_exercicio> <nome_arquivo_java>
+```
+Exemplo código:
+```
+run_java.bat 05 c Matematica
+```
+Exemplo exercício:
+```
+run_java.bat 04 e Exercicio0401
+```
