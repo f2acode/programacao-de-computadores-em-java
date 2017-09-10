@@ -1,6 +1,8 @@
 # Programação de computadores em Java
 
-É possível compilar e executar os arquivos mais rapidamente, para testes com .bat (Windows), você pode checar as instruções no [final da página](https://github.com/felipeaugustox/programacao-de-computadores-em-java#compilando-e-executando-com-bat-apenas-para-windows---código-aqui).
+:bulb: É possível compilar e executar os arquivos rapidamente [no terminal](https://github.com/felipeaugustox/programacao-de-computadores-em-java#compilando-e-executando-com-bat-apenas-para-windows---código-aqui).
+
+:bulb: Esse repositório pode ser usado como referência para consultas rápidas (```ctrl+f```)
 
 ## Capítulos:
 
