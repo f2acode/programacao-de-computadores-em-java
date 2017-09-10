@@ -1,4 +1,4 @@
-# Programação de computadores em Java
+## Programação de computadores em Java
 
 :bulb: É possível compilar e executar os arquivos rapidamente [no terminal](https://github.com/felipeaugustox/programacao-de-computadores-em-java#compilando-e-executando-com-bat-apenas-para-windows---código-aqui).
 
@@ -57,6 +57,17 @@
 * Cálculo de alíquota de imposto de renda
 
 ### 07: [Estruturas de decisão](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo07)
+
+#### Códigos exemplos
+* Estrutura if 
+* Estrutura if-else
+* Estrutura switch
+
+#### Exercícios
+* Verificação de e-mail e CEP
+* Classificação de conceitos avaliativos 
+* Cálculo e classificação de impostos (INSS)
+* Cálculo de IMC
 
 ### 08: [Estruturas de repetição](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo08)
 
