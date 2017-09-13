@@ -59,9 +59,7 @@
 ### 07: [Estruturas de decisão](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo07)
 
 #### Códigos exemplos
-* Estrutura ```if```
-* Estrutura ```if-else```
-* Estrutura ```switch```
+* Estrutura ```if```, ```if-else``` e ```switch```.
 
 #### Exercícios
 * Verificação de e-mail e CEP
@@ -70,6 +68,14 @@
 * Cálculo de IMC
 
 ### 08: [Estruturas de repetição](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo08)
+
+#### Códigos exemplos
+* Estrutura ```while```, ```do-while``` e ```for```.
+* Quebras de laço ```break``` e ```continue```.
+* Laços aninhados.
+
+#### Exercícios
+* 
 
 ### 09: [Vetores e matrizes](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/capitulo09)
 
