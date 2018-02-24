@@ -17,6 +17,8 @@ public class Exercicio0601{
         double velocidadeMedia = distancia / (tempo / 60);
         saida.print("\n\nVelocidade media (km/h):\t\t" + 
         String.valueOf(velocidadeMedia));
+        
+        entrada.close();
 
     }
 }

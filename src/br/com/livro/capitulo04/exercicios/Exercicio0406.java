@@ -16,5 +16,6 @@ public class Exercicio0406{
 
     System.out.println("Seu IMC:\t\t" + String.valueOf(imc));
 
+    scan.close();
   }
 }

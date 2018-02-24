@@ -16,6 +16,7 @@ public class Exercicio0606{
 
         saida.print("- Aliquota:\t\t" + String.valueOf(aliquota));
         saida.print("\n- Imposto devido:\t R$ " + String.valueOf(imposto) + "\n");
-
+        
+        entrada.close();
     }
 }

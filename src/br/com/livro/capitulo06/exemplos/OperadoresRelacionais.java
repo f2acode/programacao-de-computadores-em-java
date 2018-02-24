@@ -20,5 +20,7 @@ public class OperadoresRelacionais{
         saida.println("n1 < n2:\t" + (n1 < n2));
         saida.println("n1 >= n2:\t" + (n1 >= n2));
         saida.println("n1 <= n2:\t" + (n1 <= n2) + "\n");
+        
+        entrada.close();
     }
 }

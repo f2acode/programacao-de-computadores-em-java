@@ -13,5 +13,6 @@ public class Exercicio0505{
 
         System.out.println("\nAs palavras sao iguais?\t" + (palavra1.compareTo(palavra2) == 0));
 
+        entrada.close();
     }
 }

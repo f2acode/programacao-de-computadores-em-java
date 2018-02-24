@@ -25,6 +25,8 @@ public class Exercicio0603{
         "\n- Juros pagos:\t\t R$ " + String.valueOf(jurosPagos) +
         "\n- Total pago:\t\t R$ " + String.valueOf(totalPago) + 
         "\n- Percentual de juros:\t" + String.valueOf(percentualJuros));
+        
+        entrada.close();
 
     }
 }

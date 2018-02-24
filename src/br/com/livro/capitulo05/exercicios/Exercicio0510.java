@@ -13,5 +13,6 @@ public class Exercicio0510{
 
         System.out.println("\nNumero sorteado:\t" + String.valueOf(numeroSorteado));
 
+        entrada.close();
     }
 }

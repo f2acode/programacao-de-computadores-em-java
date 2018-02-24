@@ -14,5 +14,7 @@ public class Exercicio0502{
     cep = cep.replaceAll("-", "");
 
     saida.println("CEP formatado:\t" + cep);
+    
+    scan.close();
   }
 }

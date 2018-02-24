@@ -14,5 +14,6 @@ public class Exercicio0503{
 
     System.out.println("CPF formatado:\t" + cpf);
 
+    entrada.close();
   }
 }

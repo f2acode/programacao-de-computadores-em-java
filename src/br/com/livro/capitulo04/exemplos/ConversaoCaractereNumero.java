@@ -13,6 +13,8 @@ public class ConversaoCaractereNumero{
 
     System.out.println("Codigo do caractere:\t" + codigo);
     System.out.println();
+    
+    scan.close();
 
   }
 }

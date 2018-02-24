@@ -12,5 +12,6 @@ public class Exercicio0507{
         System.out.print("A raiz quadrada de " + String.valueOf(numero) + " e " +
             String.valueOf(Math.sqrt(numero)));
 
+        entrada.close();
     }
 }

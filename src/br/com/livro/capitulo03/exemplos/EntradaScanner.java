@@ -14,5 +14,7 @@ public class EntradaScanner
 
     System.out.println("\nDados recebidos:");
     System.out.printf("Nome:\t %s \nE-mail:\t %s\n\n", nome, email);
+    
+    scan.close();
   }
 }

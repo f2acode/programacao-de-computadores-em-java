@@ -6,6 +6,9 @@ public class Exercicio0704{
 
         String conceito = "";
         String entrada = JOptionPane.showInputDialog(null, "Informe um caractere:");
+
+        if(entrada == null)
+            System.exit(0);
         
         if(entrada.length() == 0){
             JOptionPane.showMessageDialog(null, "E necessario informar alguma letra", "Erro", 3);
@@ -13,9 +16,6 @@ public class Exercicio0704{
         }
         
         Character caractere = entrada.charAt(0);
-
-        if(caractere == null)
-            System.exit(0);
 
         switch(caractere){
             case 'A': conceito = "Excelente"; break;

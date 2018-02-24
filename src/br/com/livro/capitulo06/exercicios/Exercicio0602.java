@@ -18,6 +18,7 @@ public class Exercicio0602{
         
         saida.print("\n\nPercentual de impostos:\t" + 
         String.valueOf(percentualImpostos));
-
+        
+        entrada.close();
     }
 }

@@ -16,6 +16,7 @@ public class TratamentoInput {
       catch (InputMismatchException ime) {
         System.out.println("Idade inv�lida!");
       }
+      scan.close();
     }
     
     System.out.println("Sua idade:\t\t" + idade);

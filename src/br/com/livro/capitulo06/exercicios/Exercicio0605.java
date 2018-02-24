@@ -20,5 +20,6 @@ public class Exercicio0605{
         saida.print("\nA sua resposta e:\t" +  
             String.valueOf(conclusao ? "Verdadeira":"Falsa"));
 
+        entrada.close();
     }
 }

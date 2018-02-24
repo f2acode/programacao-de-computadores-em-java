@@ -20,6 +20,8 @@ public class CalculoImpostos{
     System.out.println("PIS (0,65%):\t" + nf.format(valor_pis));
     System.out.println("TOTAL:\t\t" + nf.format(total_impostos));
     System.out.println();
+    
+    scan.close();
 
   }
 }

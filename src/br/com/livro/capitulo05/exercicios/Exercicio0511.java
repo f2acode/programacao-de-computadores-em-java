@@ -1,6 +1,5 @@
 package br.com.livro.capitulo05.exercicios;
 import javax.swing.JOptionPane;
-import java.lang.Math;
 
 public class Exercicio0511{
     public static void main(String[] args){

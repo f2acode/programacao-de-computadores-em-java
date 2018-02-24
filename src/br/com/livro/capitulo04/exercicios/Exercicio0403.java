@@ -12,6 +12,8 @@ public class Exercicio0403{
 
     System.out.print("O quadrado de " + String.valueOf(numero) + " e "
     + String.valueOf(quadrado));
+    
+    scan.close();
 
   }
 }

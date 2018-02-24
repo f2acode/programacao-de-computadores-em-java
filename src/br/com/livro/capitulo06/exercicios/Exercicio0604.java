@@ -12,6 +12,7 @@ public class Exercicio0604{
 
         saida.print("Analise do numero:\t" + 
             String.valueOf((resto == 0) ? "Numero par" : "Numero impar") + "\n");
-
+        
+        entrada.close();
     }
 }

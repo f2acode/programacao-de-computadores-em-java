@@ -27,5 +27,7 @@ public class OperadoresLogicos{
         saida.println("b1 &= !b2:\tb1 recebeu " + b1);
         b1 ^= b2;
         saida.println("b1 ^= b2:\tb1 recebeu " + b1 + "\n");
+        
+        entrada.close();
     }
 }

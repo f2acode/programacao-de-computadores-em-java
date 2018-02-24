@@ -20,6 +20,8 @@ public class Exercicio0401{
     System.out.println("Sexo:\t" + String.valueOf(sexo));
     System.out.println("Renda:\t" + nf.format(renda));
     System.out.println();
+    
+    scan.close();
 
   }
 }

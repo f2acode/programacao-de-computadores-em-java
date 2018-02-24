@@ -14,5 +14,6 @@ public class Exercicio0506{
         
         System.out.print("As iniciais do seu nome sao:" + iniciais);
 
+        entrada.close();
     }
 }

@@ -11,5 +11,7 @@ public class Exercicio0504{
         String palavra2 = entrada.nextLine();
 
         System.out.println("\nAs palavras sao iguais?\t" + palavra1.equalsIgnoreCase(palavra2));
+        
+        entrada.close();
     }
 }

@@ -17,5 +17,7 @@ public class Exercicio0509{
         System.out.print("\n\nRaio do circulo:\t" + String.valueOf(raio));
         System.out.print("\nCircunferencia do circulo:\t" + String.valueOf(circunferencia));
         System.out.println("\nArea do circulo:\t" + String.valueOf(area));
+        
+        entrada.close();
     }
 }

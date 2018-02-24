@@ -17,6 +17,8 @@ public class Exercicio0303 {
     System.out.printf("Nome:\t %s\n", nome);
     System.out.printf("Nacionalidade:\t %s\n", nacionalidade);
     System.out.printf("Telefone:\t %s\n", telefone);
+    
+    scan.close();
 
   }
 }

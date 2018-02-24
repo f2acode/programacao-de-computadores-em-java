@@ -12,6 +12,8 @@ public class ConversaoNumeroCaractere{
 
     System.out.println("Caractere correspondente:\t" + caractere);
     System.out.println();
+    
+    scan.close();
 
   }
 }

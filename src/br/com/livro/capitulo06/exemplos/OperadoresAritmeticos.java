@@ -30,5 +30,7 @@ public class OperadoresAritmeticos{
         saida.printf("\nDe Multiplicacao (n1 *= 2):\t%f", n1 *= 2);
         saida.printf("\nDe divisao (n1 /= 2):\t\t%f", n1 /= 2);
         saida.printf("\nDe modulo (n1 %% 2):\t\t%f\n\n", n1 %= 2);
+        
+        entrada.close();
     }
 }

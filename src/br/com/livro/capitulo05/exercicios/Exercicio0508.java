@@ -12,5 +12,7 @@ public class Exercicio0508{
         int expoente = entrada.nextInt();
 
         System.out.print("\nResultado:\t" + String.valueOf(Math.pow(numero, expoente)));
+        
+        entrada.close();
     }
 }

@@ -19,6 +19,8 @@ public class ComparaTexto {
     saida.println("Ordem (C.S.):\t\t" + (t1.compareTo(t2)));
     saida.println("Ordem:\t\t\t" + (t1.compareToIgnoreCase(t2)));
     saida.println();
+    
+    scan.close();
 
   }
 }

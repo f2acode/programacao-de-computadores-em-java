@@ -24,6 +24,8 @@ public class Exercicio0405{
     + nf.format(valorComissao));
 
     System.out.println();
+    
+    scan.close();
 
   }
 }

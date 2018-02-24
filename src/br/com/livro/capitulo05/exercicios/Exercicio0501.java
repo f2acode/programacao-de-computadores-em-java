@@ -14,5 +14,7 @@ public class Exercicio0501{
     cep = cep.substring(0, 5) + "-"+cep.substring(5, cep.length());
 
     saida.print("CEP formatado:\t"+cep);
+    
+    entrada.close();
   }
 }

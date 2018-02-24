@@ -39,5 +39,7 @@ public class AnalisadorDeTexto {
 
     saida.print("O ultimo sobrenome:\t\t");
     saida.println(artista.substring(artista.lastIndexOf(" ") +1, artista.length()));
+    
+    scan.close();
   }
 }

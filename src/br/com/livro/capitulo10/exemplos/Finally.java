@@ -8,7 +8,7 @@ public class Finally {
     if (str == null) System.exit(0);
        
     try {
-      int numero = Integer.parseInt(str);
+      Integer.parseInt(str);
       JOptionPane.showMessageDialog(null,"N�mero v�lido!");
     }
     catch (NumberFormatException nfe) {

@@ -20,5 +20,7 @@ public class ConversaoTextoNumeros{
     "\n db = \t %f \n f1 = \t %f \n lg = \t %d \n it = \t %d" +
     "\n sh = \t %d \n bt = \t %d \n ch = \t %c \n\n",
     db, fl, lg, it, sh, bt, ch);
+    
+    scan.close();
   }
 }

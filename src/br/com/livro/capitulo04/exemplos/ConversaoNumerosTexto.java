@@ -24,6 +24,7 @@ public class ConversaoNumerosTexto{
     "\n String decimal: \t" + string_decimal);
 
     System.out.println();
+    scan.close();
 
   }
 }
