@@ -115,6 +115,7 @@ Uma boa prática pode ser usar o padrão ```is[Atributo]``` para atributos boole
 ### 14: [Herança e polimorfismo](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/src/br/com/livro/capitulo14)
 
 Conceito de herança (```extends```) e polimorfismo (mútiplas formas), classes finais e abstratas. 
+Manipulação polimórfica de objetos.
 
 **Herança**
 
@@ -143,6 +144,15 @@ Ele não contém corpo e deve ser implementado na subclasse. A obrigatoriedade d
 **Método constante** -- ```public final [nome_do_metodo]```
 
 Ele não pode ser alterado na subclasse.
+
+**Manipulação polimórfica de objetos**
+
+É possível verificar a classe de um objeto utilizando ```getClass().getName()```.
+É possível verificar se a referência de uma classe pertence à uma classe específica ou uma de suas subclasses da seguinte maneira:
+```[nome_da_referência](instância) instanceof [nome_da_classe]```
+Podemos realizar o cast de uma referência para a classe real de um objeto:
+```([nome_da_classe]) [nome_da_referência]``` 
+O cast pode acarretar a falta de algum método específico de acordo com cada cast realizado, por isso é interessante usar o ```instanceof``` para realizar a manipulação dinâmica
 
 ### 15: [Interfaces](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/src/br/com/livro/capitulo15)
 
