@@ -114,7 +114,35 @@ Uma boa prática pode ser usar o padrão ```is[Atributo]``` para atributos boole
 
 ### 14: [Herança e polimorfismo](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/src/br/com/livro/capitulo14)
 
-TODO.
+Conceito de herança (```extends```) e polimorfismo (mútiplas formas), classes finais e abstratas. 
+
+**Herança**
+
+O qualificador ```final``` na classe faz com que ela não possa conter subclasses e consequentemente não tenha seu comportamento alterado. A vantagem é o ganho de desempenho, porque ele não verifica se existe alguma polimorfismo de sobreposição.
+
+A referência ```this``` é usada para se referir à classe corrente e a ```super``` é utilizada para se referir à superclasse. Uma observação é a chamada do construtor da superclasse: ```super();```, dentro do construtor da subclasse, para setar os valores que vem da superclasse.
+
+Uma maneira enxuta de chamar um construtor default: ```this("nome_exemplo","telefone_exemplo")```, normalmente fazem um construtor chamar outro, passando esses parâmetros, para inicializar as variáveis (evitando informações nulas).
+
+**Polimorfismo**
+
+Dois tipos:
+* Sobrecarga: Mesmo método com diferentes parâmetros
+* Sobreposição: Reescrita de um método com os mesmos parâmetros em classes derivadas daquelas que contém sua implementação original
+
+**Classe abstrata** - ```public abstract class nome_da_classe()```
+
+Ela é utilizada para definir atributos e métodos comuns a outras classes.
+Ela não pode ser instanciada, por isso deve haver uma subclasse especializada que herde dela.
+Caso ela possua um método abstrato automaticamente ela deve ser abstrata.
+
+**Método abstrato** - ```public abstract [nome_do_metodo]```
+
+Ele não contém corpo e deve ser implementado na subclasse. A obrigatoriedade de sua implementação na subclasse é justamente a sua melhor utilização.
+
+**Método constante** -- ```public final [nome_do_metodo]```
+
+Ele não pode ser alterado na subclasse.
 
 ### 15: [Interfaces](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/src/br/com/livro/capitulo15)
 
