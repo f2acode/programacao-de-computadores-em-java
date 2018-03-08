@@ -15,7 +15,11 @@ public abstract class Cliente {
 	}
 	
 	public void setCodigo(int codigo) {
-		this.Codigo = codigo;
+		if(codigo >= 1 && codigo <= 1000) {
+			this.Codigo = codigo;
+		}else {
+			// error
+		}
 	}
 	
 	public String getNome() {
@@ -23,7 +27,21 @@ public abstract class Cliente {
 	}
 	
 	public void setNome(String nome) {
-		this.Nome = nome;
+		String[] arrayNome = nome.split(" ");
+		boolean partesMaioresQueDois = true;
+		
+		for(String parteNome : arrayNome) {
+			if(parteNome.length() < 2) {
+				partesMaioresQueDois = false;
+			}
+		}
+		
+		if(arrayNome.length >= 2 && partesMaioresQueDois) {
+			this.Nome = nome;	
+		}else {
+			// error
+		}
+		
 	}
 	
 	public String getTelefone() {
