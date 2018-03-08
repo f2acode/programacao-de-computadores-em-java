@@ -49,7 +49,24 @@ public abstract class Cliente {
 	}
 	
 	public void setTelefone(String telefone) {
-		this.Telefone = telefone;
+		
+		String numero = telefone.substring(0, telefone.length()-1)
+				.replaceFirst("-", "");
+		
+		if(numero.length() == 12 ) {
+			String ddd = telefone.substring(0, 3);
+			boolean temTraco = telefone.charAt(8) == '-';
+			
+			if(ddd.startsWith("(") && ddd.endsWith("(") && temTraco 
+					&& numero.matches("[0-9]+")) {
+				this.Telefone = telefone;
+			}else {
+				// error
+			}	
+		}else {
+			// error
+		}
+		
 	}
 	
 	public String getEmail() {
@@ -57,6 +74,22 @@ public abstract class Cliente {
 	}
 	
 	public void setEmail(String email) {
-		this.Email = email;
+		
+		String[] emailSeparado = email.split("@");
+		boolean apenasUmArroba = (emailSeparado.length == 2);
+		
+		if(apenasUmArroba) {
+			boolean caractereAntesEDepois = emailSeparado[0].length() > 0
+					&& emailSeparado[1].length() > 0; 
+			
+			if(caractereAntesEDepois) {
+				this.Email = email;	
+			}else {
+				// error
+			}
+		}else {
+			// error
+		}
+		
 	}
 }

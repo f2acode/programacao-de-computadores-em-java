@@ -9,7 +9,21 @@ public class PessoaJuridica extends Cliente{
 	}
 	
 	public void setRazaoSocial(String razaoSocial) {
-		this.RazaoSocial = razaoSocial;
+		String[] arrayRazao = razaoSocial.split(" ");
+		boolean partesMaioresQueDois = true;
+		
+		for(String parteRazao : arrayRazao) {
+			if(parteRazao.length() < 2) {
+				partesMaioresQueDois = false;
+			}
+		}
+		
+		if(arrayRazao.length >= 2 && partesMaioresQueDois) {
+			this.RazaoSocial = razaoSocial;	
+		}else {
+			// error
+		}
+		
 	}
 	
 	public String getIE() {
@@ -17,6 +31,10 @@ public class PessoaJuridica extends Cliente{
 	}
 	
 	public void setIE(String ie) {
-		this.IE = ie;
+		if(ie.length() > 0 && ie.length() <= 15) {
+			this.IE = ie;	
+		}else {
+			// error
+		}
 	}
 }
