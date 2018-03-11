@@ -156,7 +156,25 @@ O cast pode acarretar a falta de algum método específico de acordo com cada ca
 
 ### 15: [Interfaces](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/src/br/com/livro/capitulo15)
 
-TODO.
+```interface``` e ```ìmplements```.
+
+Tem por objetivo suprir a herança multipla, oferecendo um mecanismo mais eficiente.
+
+Problemas da herança múltipla:
+* Conflito entre nomes de métodos
+* Compilação complexa (compiladores ineficientes)
+
+A interface é um tipo de contrato assinado pelas classes. As classes que o assinam devem implementar os métodos abstratos definidos nas interfaces.
+
+Uma mesma classe pode implementar múltiplas interfaces e por isso pode ter múltiplos tipos.
+
+Funcionam como classes abstratas, não possuem construtores e não podem ser estanciadas. Só há uma maneira de instanciar um objeto cujo tipo seja uma interface: utilizar um construtor de uma classe que tenha a tenha implementado.
+
+Uma interface só pode herdar de outro interface, assim como uma classe só pode derivar de outra classe.
+
+Se uma classe herda outra e implementa outra, é possível que os métodos que ela herda da primeira e precisa implementar da segunda se anulem, ou seja, não seja necessária a implementação.
+
+### 16: [Pacotes](https://github.com/felipeaugustox/programacao-de-computadores-em-java/tree/master/src/br/com/livro/capitulo16)
 
 ### Extra: Compilando e executando com .bat (apenas para Windows) - [Código aqui](https://gist.github.com/felipeaugustox/22dd2baa94238bf4fed4ab73d99e699f)
 Foi criado um arquivo .bat para compilar e executar os exemplos de códigos, assim como os exercícios mais facilmente:

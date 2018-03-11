@@ -2,7 +2,7 @@ package br.com.livro.capitulo14.exercicios;
 
 public class CadastroClientes {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws EDadoInvalido {
 		
 		PessoaFisica pessoaFisica = new PessoaFisica();
 		pessoaFisica.setCodigo(1);
